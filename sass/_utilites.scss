@@ -1,0 +1,88 @@
+// Card bg
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: $default-font;
+  font-family: $lexend-deca;
+  font-weight: $font-weight-400;
+  background-color: $very-light-gray-bg-hd-btn;
+
+  @media (min-width: 48rem) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+}
+
+.bg-orange {
+  background-color: $bright-orange;
+}
+
+.bg-cyan {
+  background-color: $dark-cyan;
+}
+
+.bg-dark-cyan {
+  background-color: $very-dark-cyan;
+}
+
+.text-orange {
+  color: $bright-orange;
+}
+
+.text-cyan {
+  color: $dark-cyan;
+}
+
+.text-dark-cyan {
+  color: $very-dark-cyan;
+}
+
+.container {
+  margin: 5.5rem 1.2rem;
+  padding: 0 0 1.25rem;
+
+  @media (min-width: 48rem) {
+    display: flex;
+    max-width: 57.5rem;
+  }
+}
+
+.card-top {
+  border-radius: 0.625rem 0.625rem 0 0;
+
+  @media (min-width: 48rem) {
+    border-radius: 0.625rem 0 0 0.625rem;
+  }
+}
+
+.card-bottom {
+  border-radius: 0 0 0.625rem 0.625rem;
+
+  @media (min-width: 48rem) {
+    border-radius: 0 0.625rem 0.625rem 0;
+  }
+}
+
+.btn {
+  font-weight: 400;
+  background-color: $very-light-gray-bg-hd-btn;
+  border: 0.125rem solid $very-light-gray-bg-hd-btn;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1.875rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: transparent;
+    color: $very-light-gray-bg-hd-btn;
+  }
+}

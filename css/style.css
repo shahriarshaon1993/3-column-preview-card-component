@@ -1,0 +1,147 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 0.9375rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  background-color: #f2f2f2;
+}
+
+@media (min-width: 48rem) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+  }
+}
+
+.bg-orange {
+  background-color: #e38826;
+}
+
+.bg-cyan {
+  background-color: #006970;
+}
+
+.bg-dark-cyan {
+  background-color: #004241;
+}
+
+.text-orange {
+  color: #e38826;
+}
+
+.text-cyan {
+  color: #006970;
+}
+
+.text-dark-cyan {
+  color: #004241;
+}
+
+.container {
+  margin: 5.5rem 1.2rem;
+  padding: 0 0 1.25rem;
+}
+
+@media (min-width: 48rem) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 57.5rem;
+  }
+}
+
+.card-top {
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+
+@media (min-width: 48rem) {
+  .card-top {
+    border-radius: 0.625rem 0 0 0.625rem;
+  }
+}
+
+.card-bottom {
+  border-radius: 0 0 0.625rem 0.625rem;
+}
+
+@media (min-width: 48rem) {
+  .card-bottom {
+    border-radius: 0 0.625rem 0.625rem 0;
+  }
+}
+
+.btn {
+  font-weight: 400;
+  background-color: #f2f2f2;
+  border: 0.125rem solid #f2f2f2;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1.875rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.card {
+  padding: 3rem;
+}
+
+.card-img {
+  margin-bottom: 2.625rem;
+}
+
+.card-title {
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: #f2f2f2;
+  margin-bottom: 2.625rem;
+}
+
+.card-text {
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 48rem) {
+  .card-text {
+    margin-bottom: 5.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+@import "config";
+@import "utilites";
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  padding: 3rem;
+
+  &-img {
+    margin-bottom: 2.625rem;
+  }
+
+  &-title {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    font-family: $big-shoulders-display;
+    font-weight: $font-weight-700;
+    color: $very-light-gray-bg-hd-btn;
+    margin-bottom: 2.625rem;
+  }
+
+  &-text {
+    color: $transparent-white-paragraphs;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+
+    @media (min-width: 48rem) {
+      margin-bottom: 5.5rem;
+    }
+  }
+}
